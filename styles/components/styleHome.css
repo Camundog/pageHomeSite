@@ -1,0 +1,133 @@
+        .c-carousel__slides .c-carousel__slide {
+            background-color: black;
+        }
+        
+        .js-carousel--responsive-dots {
+            height: auto;
+            background-color: black;
+        }
+        
+        .info-recursos {
+            display: flex;
+            flex-direction: row;
+            margin: 0.6rem;
+            padding: 0.6rem;
+            width: 100%;
+            background-color: rgb(212, 211, 211);
+        }
+        
+        .info-recursos div {
+            display: flex;
+            align-items: center;
+            margin: 0.5rem;
+        }
+        
+        .info-recursos div img {
+            margin: 0.2rem;
+        }
+        
+        .info-recursos a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .info-recursos a:hover {
+            text-decoration: underline;
+        }
+        
+        .produtos {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .area--produto-1 {
+            margin: 0.8rem;
+            flex: 1;
+        }
+        
+        .area--produto-1,
+        .area--produto-2 {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .area--produto-1 img,
+        .area--produto-2 img {
+            max-width: 100%;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+        
+        .area--produto-1:hover img,
+        .area--produto-2:hover img {
+            -moz-transform: scale(0.9);
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        
+        .area--produto-2 {
+            margin: 0.8rem;
+            flex: 1;
+        }
+        
+        .area--produto-2 a,
+        .area--produto-1 a {
+            text-decoration: none;
+            color: black;
+            transition: all 1s;
+        }
+        
+        .area-oferta {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        
+        .area--oferta-1 {
+            margin: 0.8rem;
+            flex: 1;
+        }
+        
+        .area--oferta-2 {
+            display: flex;
+            flex-direction: row;
+            flex: 1;
+        }
+        
+        .oferta-conteudo-1 a,
+        .oferta-conteudo-2 a,
+        .area--oferta-1 a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .oferta-1,
+        .oferta-2,
+        .area--oferta-1 {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .oferta-1 img,
+        .oferta-2 img,
+        .area--oferta-1 img {
+            max-width: 100%;
+            -moz-transition: all 0.5s;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s;
+        }
+        
+        .oferta-1:hover img,
+        .oferta-2:hover img,
+        .area--conteudo-oferta:hover img {
+            -moz-transform: scale(0.9);
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
+        
+        .oferta-1,
+        .oferta-2,
+        .area--conteudo-oferta {
+            margin: 1rem;
+        }

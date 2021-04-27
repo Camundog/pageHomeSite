@@ -1,0 +1,36 @@
+h1 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 2rem;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1170px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-right: 0.2rem solid black;
+    border-left: 0.2rem solid black;
+    margin: 3em 0 1.5rem;
+    padding: 0.2rem;
+}
+
+.title p {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}

@@ -1,0 +1,86 @@
+.area-signin {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.area-signin nav {
+    display: flex;
+}
+
+.area-signin nav ul {
+    display: flex;
+    margin: 0.5rem 1rem;
+    justify-content: center;
+    border-left: 1px solid blanchedalmond;
+    border-right: 1px solid blanchedalmond;
+}
+
+.area-signin nav ul li {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.area-signin nav ul a {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: blanchedalmond;
+    transition: all 1s;
+}
+
+.area-signin nav ul a:hover {
+    color: yellowgreen;
+}
+
+.area-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: yellowgreen;
+    height: 5rem;
+}
+
+.area--conteudo-header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.area-logo {
+    margin: 1rem;
+    flex: 1;
+}
+
+.area-message {
+    flex: 1;
+}
+
+.navPage ul {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.navPage li {
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.navPage a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+}
+
+.navPage a:hover {
+    color: blanchedalmond
+}
